@@ -1,0 +1,14 @@
+# Python virtual environment directory
+.venv/
+
+# Environment variable file containing secrets
+.env
+
+# Python bytecode cache directories
+__pycache__/
+
+# All compiled Python bytecode files
+*.pyc
+
+# macOS Finder metadata file
+.DS_Store
