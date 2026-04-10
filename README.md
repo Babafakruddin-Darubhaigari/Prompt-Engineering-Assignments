@@ -1,14 +1,24 @@
 # Prompt Engineering Practice
 
-## Project title
-Prompt Engineering Practice
+This project is a beginner-friendly workspace for learning prompt engineering with simple notes, small Python examples, and short assignments.
 
 ## Topics covered
 - Zero-shot prompting
+- One-shot prompting
 - Prompt formulation for AI models
 - Working with a Python virtual environment
 - Dependency management using `requirements.txt`
 - Organizing examples, prompts, and assignments
+
+## What you will learn
+- How to give a direct instruction with zero-shot prompting
+- How to guide the model with one example using one-shot prompting
+- How better prompt structure can improve the model's output
+
+## Learning flow
+1. Read the topic note inside `prompts/`.
+2. Run the matching example inside `examples/`.
+3. Complete the short practice task inside `assignments/`.
 
 ## Setup steps
 1. Create a virtual environment:
@@ -33,18 +43,28 @@ Prompt Engineering Practice
    ```powershell
    .\.venv\Scripts\activate
    ```
-2. Run an example file with Python, for example:
+2. Run the zero-shot example:
    ```powershell
    python examples\01_zero_shot.py
    ```
-3. Check the output in the terminal.
+3. Run the one-shot example:
+   ```powershell
+   python examples\02_one_shot.py
+   ```
+4. Check the output in the terminal.
+
+## Current practice modules
+- `01_zero_shot` teaches how to ask the model to perform a task using only a clear instruction.
+- `02_one_shot` teaches how to give the model one example before the real task so it can follow the same pattern.
 
 ## Folder structure
-- `assignments/` — prompt engineering exercises and task descriptions
-- `examples/` — runnable Python examples for prompt techniques
-- `prompts/` — prompt templates and explanations in Markdown
-- `.venv/` — local virtual environment (ignored by Git)
-- `requirements.txt` — project dependencies
-- `README.md` — project overview and setup instructions
-- `helper.py` — helper code used by example scripts
-- `.gitignore` — files and folders excluded from Git
+- `assignments/` - prompt engineering exercises and task descriptions
+- `examples/` - runnable Python examples for prompt techniques
+- `prompts/` - simple topic notes and prompt explanations
+- `.venv/` - local virtual environment used for development
+- `requirements.txt` - project dependencies
+- `README.md` - project overview and setup instructions
+- `helper.py` - helper code used by example scripts
+- `.gitignore` - files and folders excluded from Git
+
+
