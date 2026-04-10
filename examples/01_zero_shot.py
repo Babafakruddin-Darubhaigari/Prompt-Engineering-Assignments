@@ -1,7 +1,10 @@
-# Import the helper function that sends prompts to the model.
 import os
 import sys
+
+# Add parent directory to Python path to import helper module
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
+# Import the helper function that sends prompts to the model.
 from helper import get_completion
 
 # This is a zero-shot prompt example.
