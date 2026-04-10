@@ -1,4 +1,7 @@
+# Import operating system module for path operations
 import os
+
+# Import system module for system-specific operations
 import sys
 
 # Add parent directory to Python path to import helper module
