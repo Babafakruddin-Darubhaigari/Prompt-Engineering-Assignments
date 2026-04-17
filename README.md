@@ -6,6 +6,7 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
 - Zero-shot prompting
 - One-shot prompting
 - Few-shot prompting
+- Multi-shot prompting
 - Prompt formulation for AI models
 - Working with a Python virtual environment
 - Dependency management using `requirements.txt`
@@ -57,12 +58,18 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
    ```powershell
    python examples\03_few_shot.py
    ```
-5. Check the output in the terminal.
+5. Run the multi-shot example:
+   ```powershell
+   python examples\04_multi_shot.py
+   ```
+
+6. Check the output in the terminal.
 
 ## Current practice modules
 - `01_zero_shot` teaches how to ask the model to perform a task using only a clear instruction.
 - `02_one_shot` teaches how to give the model one example before the real task so it can follow the same pattern.
 - `03_few_shot` teaches how to provide multiple examples to help the model understand complex patterns and tasks.
+- `04_multi_shot` teaches how to use many examples to improve accuracy and consistency in model responses.
 
 ## Folder structure
 - `assignments/` - prompt engineering exercises and task descriptions
