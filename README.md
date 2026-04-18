@@ -7,6 +7,7 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
 - One-shot prompting
 - Few-shot prompting
 - Multi-shot prompting
+- Chain-of-thought prompting
 - Prompt formulation for AI models
 - Working with a Python virtual environment
 - Dependency management using `requirements.txt`
@@ -16,6 +17,7 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
 - How to give a direct instruction with zero-shot prompting
 - How to guide the model with one example using one-shot prompting
 - How to provide multiple examples for complex tasks with few-shot prompting
+- How to make the model reason step by step using chain-of-thought prompting
 - How better prompt structure can improve the model's output
 
 ## Learning flow
@@ -62,14 +64,19 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
    ```powershell
    python examples\04_multi_shot.py
    ```
+6. Run the chain-of-thought example:
+   ```powershell
+   python examples\05_chain_of_thought.py
+   ```
 
-6. Check the output in the terminal.
+7. Check the output in the terminal.
 
 ## Current practice modules
 - `01_zero_shot` teaches how to ask the model to perform a task using only a clear instruction.
 - `02_one_shot` teaches how to give the model one example before the real task so it can follow the same pattern.
 - `03_few_shot` teaches how to provide multiple examples to help the model understand complex patterns and tasks.
 - `04_multi_shot` teaches how to use many examples to improve accuracy and consistency in model responses.
+- `05_chain_of_thought` teaches how to make the model think step by step to solve problems more accurately.
 
 ## Folder structure
 - `assignments/` - prompt engineering exercises and task descriptions
