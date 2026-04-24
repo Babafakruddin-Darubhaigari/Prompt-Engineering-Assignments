@@ -8,6 +8,7 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
 - Few-shot prompting
 - Multi-shot prompting
 - Chain-of-thought prompting
+- Zero-shot chain-of-thought prompting
 - Prompt formulation for AI models
 - Working with a Python virtual environment
 - Dependency management using `requirements.txt`
@@ -18,6 +19,7 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
 - How to guide the model with one example using one-shot prompting
 - How to provide multiple examples for complex tasks with few-shot prompting
 - How to make the model reason step by step using chain-of-thought prompting
+- How to improve reasoning without examples using zero-shot chain-of-thought prompting
 - How better prompt structure can improve the model's output
 
 ## Learning flow
@@ -68,8 +70,12 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
    ```powershell
    python examples\05_chain_of_thought.py
    ```
+7. Run the zero-shot chain-of-thought example:
+   ```powershell
+   python examples\06_zero_shot_cot.py
+   ```
 
-7. Check the output in the terminal.
+8. Check the output in the terminal.
 
 ## Current practice modules
 - `01_zero_shot` teaches how to ask the model to perform a task using only a clear instruction.
@@ -77,6 +83,7 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
 - `03_few_shot` teaches how to provide multiple examples to help the model understand complex patterns and tasks.
 - `04_multi_shot` teaches how to use many examples to improve accuracy and consistency in model responses.
 - `05_chain_of_thought` teaches how to make the model think step by step to solve problems more accurately.
+- `06_zero_shot_cot` teaches how to improve reasoning by asking the model to think step by step without giving examples.
 
 ## Folder structure
 - `assignments/` - prompt engineering exercises and task descriptions
@@ -87,5 +94,3 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
 - `README.md` - project overview and setup instructions
 - `helper.py` - helper code used by example scripts
 - `.gitignore` - files and folders excluded from Git
-
-
