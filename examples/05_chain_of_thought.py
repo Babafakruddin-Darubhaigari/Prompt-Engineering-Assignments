@@ -10,7 +10,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 # Import the helper function that sends prompts to the model.
 from helper import get_completion
 
-# This is a multi-shot prompt example.
+# This is a chain-of-thought prompt example.
 # Task: support ticket tagging
 # We provide a few examples to demonstrate the pattern, then ask for a new classification
 
