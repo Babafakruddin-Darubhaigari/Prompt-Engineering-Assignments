@@ -11,7 +11,6 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from helper import get_completion
 
 # This is a prompt structuring basics example.
-# Task: support ticket tagging
 # We provide a few examples to demonstrate the pattern, then ask for a new classification
 
 prompt = """
