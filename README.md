@@ -9,6 +9,8 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
 - Multi-shot prompting
 - Chain-of-thought prompting
 - Zero-shot chain-of-thought prompting
+- Prompt reuse and versioning
+- JSON prompting for structured outputs
 - Prompt formulation for AI models
 - Working with a Python virtual environment
 - Dependency management using `requirements.txt`
@@ -20,6 +22,8 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
 - How to provide multiple examples for complex tasks with few-shot prompting
 - How to make the model reason step by step using chain-of-thought prompting
 - How to improve reasoning without examples using zero-shot chain-of-thought prompting
+- How to improve prompts iteratively using versioning
+- How to generate structured outputs using JSON prompting
 - How better prompt structure can improve the model's output
 
 ## Learning flow
@@ -74,8 +78,16 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
    ```powershell
    python examples\06_zero_shot_cot.py
    ```
+8. Run the prompt reuse & versioning example:
+   ```powershell
+   python examples\09_prompt_reuse_versioning.py
+   ```
+9. Run the JSON prompting example:
+   ```powershell
+   python examples\10_json_prompting.py
+   ```
 
-8. Check the output in the terminal.
+10. Check the output in the terminal.
 
 ## Current practice modules
 - `01_zero_shot` teaches how to ask the model to perform a task using only a clear instruction.
@@ -84,6 +96,8 @@ This project is a beginner-friendly workspace for learning prompt engineering wi
 - `04_multi_shot` teaches how to use many examples to improve accuracy and consistency in model responses.
 - `05_chain_of_thought` teaches how to make the model think step by step to solve problems more accurately.
 - `06_zero_shot_cot` teaches how to improve reasoning by asking the model to think step by step without giving examples.
+- `09_prompt_reuse_versioning` teaches how to improve prompts iteratively for better output quality.
+- `10_json_prompting` teaches how to generate structured and machine-readable outputs.
 
 ## Folder structure
 - `assignments/` - prompt engineering exercises and task descriptions
